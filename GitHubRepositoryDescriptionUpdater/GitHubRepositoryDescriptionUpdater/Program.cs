@@ -2,7 +2,7 @@
 
 var token = "";
 
-var description = $"This description was updated by a bot at {DateTime.Now.ToString("F")}";
+var description = $"This description was updated by the code in this repository at {DateTime.Now.ToString("F")}";
 
 using (var requestMessage = new HttpRequestMessage(HttpMethod.Post, "https://api.github.com/repos/EemeliManninen/GitHubRepositoryDescriptionUpdater"))
 {
